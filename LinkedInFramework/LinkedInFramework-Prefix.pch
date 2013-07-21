@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'LinkedInFramework' target in the 'LinkedInFramework' project
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Some String constants used throughout the app
+#define LOGIN_VIEW_DID_FINISH @"loginViewDidFinish"
+#endif
